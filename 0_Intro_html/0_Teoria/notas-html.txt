@@ -1,0 +1,10 @@
+* Para iniciar, necesitamos crear un archivo con la terminación .html
+
+* Poner base de etiquetas html -> ! o html:5
+
+*Existen dos tipos de etiquetas:
+ a) Tienen etiquetas de apertura y cierre
+ b) Etiquetas de solo apertura
+
+* Un archivo html se puede visualizar en un explorador
+* Las etiquetas que tienen apertura y cierre es por que podemos poner cosas dentro de ellas

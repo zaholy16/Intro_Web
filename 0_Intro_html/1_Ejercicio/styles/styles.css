@@ -1,0 +1,23 @@
+body{
+    background-color: beige;
+}
+
+
+th, td {
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    background-color: aquamarine;
+}
+
+#center{
+    text-align: center;
+}
+
+#nombre{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#tipografia, h2, h3, li, th, td, p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
