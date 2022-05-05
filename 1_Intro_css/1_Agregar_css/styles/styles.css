@@ -1,0 +1,148 @@
+/*
+//etiquetas de html
+body{
+    /* margin: 100px; 
+}
+
+p {
+    /*width: ;
+    height: ;
+    margin: ;
+    padding: ;
+    miselaneos: transformadores
+    color: blue;
+}
+
+//atributo class
+.rojo {
+    color: red;
+}
+
+//atributo id
+#amarillo {
+    color: yellow;
+}
+
+#violeta {
+    color: purple;
+}*/
+
+/*------------------------------------------*/
+.contenedor-header, .navegador-principal{
+    /*background-color: antiquewhite;*/
+    width: 100%;
+    padding: 20px;
+}
+
+.contenedor-nav{
+    /*background-color: aqua;*/
+    margin-left: 110px;
+}
+
+.navegador-principal, footer { 
+    background-color: #DB008D;
+}
+
+.logo{
+    /*background-color: blueviolet;*/
+    width: 350px;
+    height: 50px;
+    padding: 20px;
+    margin-left: 80px;
+}
+
+.opciones-nav{
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+.opciones-nav, .parrafo, .title3, .navegador-secundario, .section-derechos {
+    color: white;
+}
+
+.section-principal{
+    /*background-color: beige; */
+    width: 60%;
+}
+
+.article{
+    /*background-color: aquamarine; */
+    width: 85%;
+    margin-left: 125px;
+    margin-bottom: 40px;
+}
+
+.imagen-article{
+    width: 280px;
+    height: 150px;
+    margin-right: 20px;
+}
+
+#parrafo {
+    text-align: justify;
+}
+
+#button {
+    width: 180px;
+    height: 30px;
+    color: white;
+    background-color: #01B8E3;
+    border: none;
+    font-size: medium;
+    text-align: center;
+}
+
+aside {
+    /*background-color: blueviolet;*/
+    width: 40%;
+}
+
+.text-aside {
+    margin-left: 30px;
+}
+
+li {
+    /*background-color: aqua;*/
+    width: auto;
+    list-style: none;
+    color: #01B8E3;
+    font-size: medium;
+    margin-top: 10px;
+}
+
+.section-derechos {
+    background-color: #B00573;
+    width: 100%;
+    text-align: center;
+}
+
+.contenedor-info { 
+    /*background-color: blue; */
+    width: 25%;
+    margin-left: 125px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.contenedor-navSecundario {
+    width: 25%;
+    float: right;
+    margin-top: 30px;
+    margin-right: 110px;
+    text-align: right;
+}
+
+.section-info, .contenedor-info, footer, .section-derechos, aside, .section-principal, .imagen-article{
+    float: left;
+}
+
+.title3, .info-sobreDe, p, li, .opciones-nav{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+}
+
+.titles, .text-aside {
+    /*background-color: aliceblue;*/
+    color: #01B8E3;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
