@@ -1,0 +1,31 @@
+.cuadro {
+    height: 100px;
+    width: 100px;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+
+    /* position: static;
+    top: 50px; */
+
+    /* position: relative;
+    top: 50px;
+    left: 150px; */
+
+    /* position: absolute;
+    top: 50px;
+    left: 150px; */
+
+    position: fixed;
+    top: 50px;
+    left: 150px;
+}
+
+.yellow {
+    background-color: yellow;
+}
