@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 5px;
+}
+
+.container {
+    height: 200px;
+    flex-direction: row;
+    background-color: gray;
+}
+
+.box, .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-1, .box-2 {
+    background-color: white;
+}
+
+.box-ab {
+    border: 3px solid blue;
+}
