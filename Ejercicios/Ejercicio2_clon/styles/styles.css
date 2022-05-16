@@ -1,0 +1,120 @@
+body {
+    background: rgb(155,154,171);
+    background: linear-gradient(90deg, rgba(155,154,171,1) 0%, rgba(93,93,102,1) 41%, rgba(48,48,52,1) 67%);
+}
+
+#main {
+    height: 70vw;
+    margin: 20px;
+    background: url("/Ejercicio2_clon/img/background.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#nav-main { 
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(39, 38, 38) ;
+    border-bottom: 1px solid white ;
+    opacity: 60%;
+}
+
+.nav-options {
+    margin: 75px;
+    text-decoration: none;
+    font-size: 12px;
+    color: white;
+}
+
+.section, .nav-options {
+    font-family: 'Lato', sans-serif;
+    width: 100%;
+    color: white;
+}
+
+#section-1, #career, #content-paragraph, #title-features, #features-content {
+    float: left;
+}
+
+#content-box, #country, #paragraph-about, #section-2, #date-features{
+    float: right;
+}
+
+#name {
+    margin: 2px 2px;
+    text-align: center;
+    font-size: 101px;
+    letter-spacing: 5px;
+}
+
+#career, #country, #about {
+    margin: 2px 25px;
+}
+
+#career, #country, #about {
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+#box-rounded{
+    margin: 80px 0px 25px;
+    width: fit-content;
+}
+
+#box-rounded {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    color: #260603;
+    background-color: #F2CD5C;
+    border: 1px solid #F2CD5C;
+}
+
+#paragraph-about {
+    margin: 12px 25px 25px;
+    font-size: 14px;
+}
+
+#paragraph-about, #paragraph-features { 
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#section-2 {
+    height: 50vh;
+    /* border: 1px solid aqua; */
+    background-color: #260603;
+}
+
+#features-content {
+    width: 100%;
+    /* border: 2px solid crimson; */
+    display: inline-flex;
+    margin: 25px 2px;
+}
+
+#date-features, #title-features {
+    margin: 25px;
+    /* border: 2px solid slateblue; */
+    text-align: center;
+}
+
+#paragraph-features {
+    width: 81%;
+    font-size: 14px;
+    /* border: 2px solid slateblue; */
+}
+
+/* #aside {
+    background-color: #260603;
+    height: 101vh;
+    width: 34vw;
+    margin-top: 0px;
+    margin-right: 10px;
+} */
+
+
+
+
+
