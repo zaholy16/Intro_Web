@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <form>
+
+        <!-- <label> Evitar el uso de for, cuando no usamos JS
+            Nombre
+            <input type="text" name="nombre">
+        </label> -->
+
+        
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" id="nombre" placeholder="Escribe aqui tu nombre">
+
+        <br>
+        <br>
+        
+        <!-- Evitar poner el la letra e en un input number -->
+        <label for="edad">Edad</label>
+        <input type="number" name="edad" id="edad" autofocus>
+
+        <textarea name="" id="" cols="20" rows="10"></textarea>
+
+        <fieldset>
+            <label>
+                Lenguaje
+                <input type="radio" name="lenguaje" value="javascript" id="">javascript
+                <input type="radio" name="lenguaje" value="ruby" id="">ruby
+                <input type="radio" name="lenguaje" value="python" id="">python
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <label>
+                Aceptar Cookies
+                <input type="checkbox" name="cookies" id="cookies" checked>
+            </label>
+        </fieldset>
+
+        <div>
+            <input type="checkbox" name="frutas" id="manzanas">Manzanas
+            <input type="checkbox" name="frutas" id="peras">Peras
+            <input type="checkbox" name="frutas" id="platanos">Platanos
+            <input type="checkbox" name="frutas" id="naranjas">Naranjas
+        </div>
+
+        <select name="estaods" id="estados">
+            <option value="">Colima</option>
+            <option value="">Michoacán</option>
+            <option value="">Jalisco</option>
+            <option value="">Yucatán</option>
+        </select>
+
+        <!-- <input type="text" name="" id="">
+        <input type="number" name="" id="">
+        <input type="password">
+        <input type="email" name="" id="">
+        <input type="radio" name="" id="">
+        <input type="checkbox" name="" id="">
+        <input type="date" name="" id=""> -->
+    </form>
+</body>
+</html>
