@@ -1,0 +1,36 @@
+.container {
+    /* Display grid disponemos de todo el espacio disponible en el bloque */
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 100px 500px 30px;
+    /* column-gap: 40px;
+    row-gap: 60px; */
+    /* Filas Columnas */
+    /* gap: 10px 30px; */
+    gap: 10px;
+}
+
+.element {
+    background-color: gray;
+    padding: 20px;
+    border: 1px solid green;
+}
+
+#el-1 {
+    background-color: aquamarine;
+    /* Espaciado horizontal columns */
+    /* grid-column-start: 1;
+    grid-column-end: 3; */
+    /* grid-column: 1 / span 3; */
+
+    /* grid-row-start: 1;
+    grid-row-end: 3; */
+    /* grid-row: 1 / span 3; */
+
+    /* Las dos de inicio (fila y colunna */
+    /* Las siguientes dos son hasta donde llegan (fila y columna) */
+
+    /* Ahorra las lineas de grid-column y grod-row */
+
+    grid-area: 1 / 1 / span 2 / span 2;
+}

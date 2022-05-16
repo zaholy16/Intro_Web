@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 68% auto;
+    background-color: gray;
+    gap: 10px;
+    padding: 10px;
+    height: 25vw;
+    grid-template-areas: 
+    'box1 box2 box4 box5 box7'
+    'box1 box3 box6 box6 box7';
+}
+
+/* .box-1 {
+    grid-row: 1 / 3;
+}
+
+.box-2, .box-4, .box-5{
+    grid-row: 1 / 2;
+}
+
+.box-3 {
+    grid-column: 2 / 3;
+}
+
+.box-6 {
+    grid-column: 3 / 5;
+}
+
+.box-7 {
+    grid-row: 1 / 3;
+} */
+
+.box-1 { grid-area: box1;}
+.box-2 { grid-area: box2;}
+.box-3 { grid-area: box3;}
+.box-4 { grid-area: box4;}
+.box-5 { grid-area: box5;}
+.box-6 { grid-area: box6;}
+.box-7 { grid-area: box7;}
+
+.yellow { background-color: yellow;}
+.green { background-color: green;}
+.blue { background-color: blue;}
+.orange { background-color: orange; }
+.pink { background-color: pink; }
+
+
+/* Cosas de una sola dimension, de una fila o una columna hay que usar flex-box */
+
+/* Si necesitamos interpolar, o acomdar cosas en diferentes columna o filas hay que usar grid */

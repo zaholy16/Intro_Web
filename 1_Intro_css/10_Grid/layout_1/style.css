@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: 20% 50% 30%;
+    gap: 10px;
+    padding: 10px;
+    background-color: aquamarine;
+}
+
+.element {
+    padding: 20px;
+    border: 1px solid cornflowerblue;
+    background-color: azure;
+    text-align: center;
+}
+
+.header {
+    /* grid-column-start: 1;
+    grid-column-end: 4; */
+    grid-column: 1 / 4;
+}
+
+.aside {
+    /* grid-row-start: 2;
+    grid-row-end: 4; */
+    grid-row: 2 / 4;
+}
+
+.footer {
+    grid-column: 2 / 4;
+}
