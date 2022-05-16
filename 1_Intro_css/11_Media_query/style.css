@@ -1,0 +1,71 @@
+/* BreakPoints 
+    576px 
+    768px
+    992px
+    1200px
+    1400px 
+*/
+
+/* @media screen and (max-width: 1400px) {} */
+
+body{
+    background-color: pink;
+    color: #333;
+    color: white;
+    font-size: 20px;
+}
+
+h1.title {
+    font-size: 8em;
+}
+
+@media screen and (min-width: 1px) and (max-width: 576px){
+    body {
+        background-color: #fff000;
+    }
+
+    h1.title {
+        font-size: 3em;
+        color: #333;
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px){
+    body {
+        background-color: #ffa000;
+    }
+
+    h1.title {
+        font-size: 4em;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px){
+    body {
+        background-color: #ff0000;
+    }
+
+    h1.title {
+        font-size: 5em;
+    }
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px){
+    body {
+        background-color: #00ff00;
+    }
+
+    h1.title {
+        font-size: 6em;
+    }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1400px){
+    body {
+        background-color: #000fff;
+    }
+
+    h1.title {
+        font-size: 7em;
+    }
+}
